@@ -1,0 +1,32 @@
+.products {
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products__single {
+  background-color: gainsboro;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pagination {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.pagination > span {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.pagination__selected {
+  background-color: rgb(150, 79, 243);
+  color: white;
+}
+.pagination__disabled {
+  display: none;
+}
